@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/detail")
+@RequestMapping("/api/detail")
 @RequiredArgsConstructor
 public class DetailController {
     private final LeaderboardService leaderboardService;
